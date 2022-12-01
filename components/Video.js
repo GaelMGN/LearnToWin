@@ -2,7 +2,7 @@ import Image from "next/image";
 
 function Video() {
   return (
-    <div className="relative flex justify-center overflow-hidden">
+    <div className="relative flex justify-center overflow-hidden ">
       <video
         className="absolute z-0 min-h-full w-auto min-w-full max-w-none"
         src="/videoBg.mp4"

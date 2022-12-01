@@ -52,7 +52,7 @@ function ImageCarousel() {
           </h1>
         </div>
       </Carousel>
-      <h1 className="text-shadow-white bg-white  p-10 text-[44px] font-thin leading-none text-[#437A73]">
+      <h1 className="text-shadow-white bg-white p-10  text-center text-[44px] font-thin leading-none text-[#437A73]">
         Pourquoi faire appel à un coaching de performance ?
       </h1>
     </section>
