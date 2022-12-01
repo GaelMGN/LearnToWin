@@ -1,6 +1,5 @@
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import Image from "next/image";
 
 function ImageCarousel() {
   return (
@@ -53,6 +52,9 @@ function ImageCarousel() {
           </h1>
         </div>
       </Carousel>
+      <h1 className="text-shadow-white bg-white  p-10 text-[44px] font-thin leading-none text-[#437A73]">
+        Pourquoi faire appel à un coaching de performance ?
+      </h1>
     </section>
   );
 }

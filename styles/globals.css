@@ -11,3 +11,7 @@
 .text-shadow-lt {
   text-shadow: 0.08em 0.08em 0em rgb(0 0 0 / 40%);
 }
+
+.text-shadow-white {
+  text-shadow: 0.03em 0.03em 0em #000000;
+}
