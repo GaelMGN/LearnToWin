@@ -4,7 +4,7 @@ import { faMagnifyingGlass, faBars } from "@fortawesome/free-solid-svg-icons";
 
 function Header() {
   return (
-    <header className=" bg-gray-100">
+    <header className="sticky top-0 z-20 bg-gray-100">
       <div className="mx-auto flex h-[80px] max-w-[75%] items-center justify-between">
         <a href="#">
           <Image

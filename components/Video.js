@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 function Video() {
   return (
     <div className="relative flex justify-center overflow-hidden">
@@ -9,11 +11,11 @@ function Video() {
         muted
         autoPlay
       />
-      <div className="relative z-10 flex flex-col px-[15%] py-[15%] ">
-        <h1 className="font-['Aldrich'] text-[48px] font-extrabold text-[#437A73] text-shadow">
+      <div className="relative z-10 flex flex-col px-[15%] py-[15%]">
+        <h1 className="text-[48px] font-extrabold text-[#437A73] text-shadow">
           Learn to win
         </h1>
-        <p className="font-['Aldrich'] text-lg font-thin text-[#437A73] text-shadow">
+        <p className="text-lg font-thin text-[#437A73] text-shadow">
           Pour devenir le meilleur in game, améliore tes performances off game
         </p>
       </div>
