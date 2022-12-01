@@ -7,3 +7,7 @@
 .text-shadow {
   text-shadow: 0.08em 0.08em 0em #000000;
 }
+
+.text-shadow-lt {
+  text-shadow: 0.08em 0.08em 0em rgb(0 0 0 / 40%);
+}
