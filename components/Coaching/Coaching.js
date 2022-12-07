@@ -25,7 +25,7 @@ function Coaching(props) {
           Nutrition
         </h1>
       </div>
-      <div className=" flex h-[80vh] w-full items-center justify-center bg-[url('/Sommeil2.jpeg')] bg-cover bg-center">
+      <div className=" flex h-[80vh] w-full items-center justify-center bg-[url('/sommeil2.jpeg')] bg-cover bg-center">
         <h1 className="text-center text-[48px] font-extrabold text-[#437A73] text-shadow sm:text-[80px] xl:text-[130px]">
           Sommeil et relaxation
         </h1>

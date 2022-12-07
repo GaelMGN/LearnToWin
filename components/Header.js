@@ -66,10 +66,18 @@ function Header() {
           open={openCoaching}
           onClose={handleClose}
         >
-          <MenuItem onClick={handleClose}>Entretien physique</MenuItem>
-          <MenuItem onClick={handleClose}>Développement personnel</MenuItem>
-          <MenuItem onClick={handleClose}>Sommeil et relaxation</MenuItem>
-          <MenuItem onClick={handleClose}>Nutrition</MenuItem>
+          <Link href="/coaching">
+            <MenuItem onClick={handleClose}>Entretien physique</MenuItem>
+          </Link>
+          <Link href="/coaching">
+            <MenuItem onClick={handleClose}>Développement personnel</MenuItem>
+          </Link>
+          <Link href="/coaching">
+            <MenuItem onClick={handleClose}>Sommeil et relaxation</MenuItem>
+          </Link>
+          <Link href="/coaching">
+            <MenuItem onClick={handleClose}>Nutrition</MenuItem>
+          </Link>
         </Menu>
         <Menu
           id="basic"
