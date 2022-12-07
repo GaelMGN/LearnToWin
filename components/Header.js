@@ -48,13 +48,11 @@ function Header() {
           <Link href="/">
             <a className="hover:text-[#437A73]">Accueil</a>
           </Link>
-          <a
-            href="#"
-            className="hover:cursor-pointer hover:text-[#437A73]"
-            onClick={handleClickCoaching}
-          >
-            Découvrir nos coaching &darr;
-          </a>
+          <Link href="/coaching">
+            <a href="#" className="hover:cursor-pointer hover:text-[#437A73]">
+              Découvrir nos coaching &darr;
+            </a>
+          </Link>
           <Link href="/events">
             <a className="hover:text-[#437A73]">Découvrir nos évènements</a>
           </Link>
