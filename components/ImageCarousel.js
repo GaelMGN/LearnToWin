@@ -14,7 +14,8 @@ function ImageCarousel() {
         dynamicHeight={true}
         showStatus={false}
         emulateTouch
-        className="relative border-t-2 border-[#437A73] bg-[#222324] text-4xl font-thin text-[#BAE3F4]">
+        className="relative border-t-2 border-[#437A73] bg-[#222324] text-4xl font-thin text-[#BAE3F4] sm:text-7xl"
+      >
         <div className="relative max-h-[800px] w-full text-center">
           <img
             src="/dev-personnel.jpeg"
