@@ -50,7 +50,7 @@ function Devis() {
       </section>
 
       <footer className="mt-auto bg-[#222324] text-[#437A73]">
-        <div className="mx-auto grid max-w-xl  p-4 md:py-10 lg:max-w-7xl lg:grid-cols-2">
+        <div className="mx-auto grid max-w-xl p-4 text-center md:py-10 lg:max-w-7xl lg:grid-cols-2">
           <div className="m-3 flex flex-col justify-center md:m-5">
             <h5 className="mb-3 text-lg text-white sm:text-xl">Learn To Win</h5>
             <p>Made with love in Paris, France</p>
