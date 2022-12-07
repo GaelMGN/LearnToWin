@@ -2,7 +2,7 @@ function Devis() {
   return (
     <div className="flex h-full flex-col">
       <div className="w-full">
-        <div className="m-16 max-w-[600px] p-5 shadow-2xl shadow-black ring-1 ring-black sm:mx-auto">
+        <div className="m-16 max-w-[1000px] p-5 text-center shadow-2xl shadow-black ring-1 ring-black sm:mx-auto">
           <h1 className="text-shadow-lt text-5xl text-[#437A73]">
             Demande de devis
           </h1>
@@ -30,7 +30,7 @@ function Devis() {
             </h1>
             <p className="mb-6">Abonnez vous à notre newsgames</p>
             <form>
-              <label for="email-adress" className="sr-only">
+              <label htmlFor="email-adress" className="sr-only">
                 Email address
               </label>
               <input
