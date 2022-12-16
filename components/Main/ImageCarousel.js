@@ -1,4 +1,5 @@
 import { Carousel } from "react-responsive-carousel";
+import Image from "next/image";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 function ImageCarousel() {
@@ -17,36 +18,49 @@ function ImageCarousel() {
         className="relative border-t-2 border-[#437A73] bg-[#222324] text-4xl font-thin text-[#BAE3F4] sm:text-7xl"
       >
         <div className="relative max-h-[800px] w-full text-center">
-          <img
+          <Image
             src="/dev-personnel.jpeg"
-            className="max-h-[800px] w-full object-cover object-top"
+            layout="intrinsic"
+            objectFit="cover"
+            objectPosition="top"
+            width="2560"
+            height="800"
           />
           <h1 className="text-shadow-lt absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 font-['Aldrich']">
             Développement personnel
           </h1>
         </div>
-        <div className="relative max-h-[1000px] w-full text-center">
-          <img
+        <div className="relative max-h-[800px] w-full text-center">
+          <Image
             src="/entretien-physique.jpeg"
-            className="max-h-[800px] w-full object-cover object-[0%_30%]"
+            layout="intrinsic"
+            objectFit="cover"
+            width="2560"
+            height="800"
           />
           <h1 className="text-shadow-lt absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 font-['Aldrich']">
             Entretien physique
           </h1>
         </div>
         <div className="relative max-h-[800px] w-full text-center ">
-          <img
-            src="nutrition.jpeg"
-            className="max-h-[800px] w-full object-cover object-center"
+          <Image
+            src="/nutrition.jpeg"
+            layout="intrinsic"
+            objectFit="cover"
+            width="2560"
+            height="800"
           />
           <h1 className="text-shadow-lt absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 font-['Aldrich']">
             Nutrition
           </h1>
         </div>
         <div className="relative max-h-[800px] w-full bg-slate-600 text-center">
-          <img
+          <Image
             src="/sommeil-relaxation.jpeg"
-            className="max-h-[800px] w-full object-cover object-center"
+            layout="intrinsic"
+            objectFit="cover"
+            width="2560"
+            height="800"
           />
           <h1 className="text-shadow-lt absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 font-['Aldrich']">
             Sommeil / Relaxation

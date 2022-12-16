@@ -1,5 +1,6 @@
 import Devis from "../Devis";
 import Header from "../Header";
+import Image from "next/image";
 
 function Coaching(props) {
   return (
