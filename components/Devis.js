@@ -15,9 +15,9 @@ function Devis() {
       <section className="relative flex h-[500px] flex-col items-center justify-center py-0 px-3 text-center text-white">
         <div className="video-docker absolute top-0 left-0 z-0 h-full w-full overflow-hidden">
           <video
-            className="absolute min-h-full min-w-full object-cover"
-            src="/videoFooter.mp4"
-            type="video/mp4"
+            className="absolute min-h-full min-w-full"
+            src="/Footer.m4v"
+            type="video/m4v"
             autoPlay
             muted
             loop
