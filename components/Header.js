@@ -48,11 +48,13 @@ function Header() {
           <Link href="/">
             <a className="hover:text-[#437A73]">Accueil</a>
           </Link>
-          <Link href="/coaching">
-            <a href="#" className="hover:cursor-pointer hover:text-[#437A73]">
-              Découvrir nos coaching &darr;
-            </a>
-          </Link>
+          <a
+            href="#"
+            onClick={handleClickCoaching}
+            className="hover:cursor-pointer hover:text-[#437A73]"
+          >
+            Découvrir nos coaching &darr;
+          </a>
           <Link href="/events">
             <a className="hover:text-[#437A73]">Découvrir nos évènements</a>
           </Link>
@@ -67,15 +69,18 @@ function Header() {
           onClose={handleClose}
         >
           <Link href="/coaching">
+            <MenuItem onClick={handleClose}>Coaching</MenuItem>
+          </Link>
+          <Link href="/entretien">
             <MenuItem onClick={handleClose}>Entretien physique</MenuItem>
           </Link>
-          <Link href="/coaching">
+          <Link href="/developpement">
             <MenuItem onClick={handleClose}>Développement personnel</MenuItem>
           </Link>
-          <Link href="/coaching">
+          <Link href="/sommeil">
             <MenuItem onClick={handleClose}>Sommeil et relaxation</MenuItem>
           </Link>
-          <Link href="/coaching">
+          <Link href="/nutrition">
             <MenuItem onClick={handleClose}>Nutrition</MenuItem>
           </Link>
         </Menu>
@@ -89,16 +94,16 @@ function Header() {
           <Link href="/">
             <MenuItem onClick={handleClose}>Accueil</MenuItem>
           </Link>
-          <Link href="/">
+          <Link href="/entretien">
             <MenuItem onClick={handleClose}>Entretien physique</MenuItem>
           </Link>
-          <Link href="/">
+          <Link href="/developpement">
             <MenuItem onClick={handleClose}>Développement personnel</MenuItem>
           </Link>
-          <Link href="/">
+          <Link href="/sommeil">
             <MenuItem onClick={handleClose}>Sommeil et relaxation</MenuItem>
           </Link>
-          <Link href="/">
+          <Link href="/nutrition">
             <MenuItem onClick={handleClose}>Nutrition</MenuItem>
           </Link>
           <Link href="/events">

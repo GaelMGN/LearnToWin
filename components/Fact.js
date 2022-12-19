@@ -6,13 +6,15 @@ function Fact(props) {
     <div
       className={
         style +
-        " flex flex-col items-center justify-center px-10 py-16 text-2xl leading-none"
-      }>
+        " flex flex-col items-center justify-center px-10 py-16 text-center text-2xl leading-none"
+      }
+    >
       <h1
         className={
           (!props.green ? "text-[#437A73]" : "text-white") +
           " text-shadow-white pb-10 text-7xl "
-        }>
+        }
+      >
         {props.title}
       </h1>
       <p>{props.par1}</p>

@@ -19,8 +19,8 @@ afin d’atteindre un public moins averti."
 pratique via 3 axes :
 "
       />
-      <section className="grid grid-cols-2 items-center bg-[#437A73]">
-        <div className="text-shadow-white text-center text-[28px] font-thin leading-none sm:text-[56px]">
+      <section className="grid grid-cols-2 items-center border-y-2 border-[#BAE3F4] bg-[#437A73]">
+        <div className="text-shadow-white bottom-border flex h-full items-center justify-center text-center text-[28px] font-thin leading-none sm:text-[56px]">
           <h1>La découverte 🥧👨‍🍳</h1>
         </div>
         <Image
@@ -29,7 +29,7 @@ pratique via 3 axes :
           width="1000"
           height="800"
           objectFit="cover"
-          className="overflow-hidden transition-transform hover:scale-105"
+          className="overflow-hidden transition-transform hover:scale-105 "
         />
 
         <Image
@@ -56,7 +56,7 @@ pratique via 3 axes :
           className="overflow-hidden transition-transform hover:scale-105"
         />
       </section>
-      <section className="mt-10">
+      <section className="mt-10 border-b-2 border-[#BAE3F4]">
         <h2 className=" text-shadow-white text-center text-[28px] text-[#437A73] ">
           {" "}
           Ils nous font confiance :
